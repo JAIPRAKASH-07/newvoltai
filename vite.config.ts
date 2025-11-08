@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // 👈 Must match your GitHub repo name
+  base: "/newvoltai/", // 👈 Must match your GitHub repo name
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"), // 👈 Enables imports like "@/components/..."
